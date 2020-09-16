@@ -1,0 +1,22 @@
+Como usar:
+
+1 - network_scanner para ver as redes no wifi local da rede.
+
+add:
+
+netdiscover -r 10.0.2.15/24
+
+
+2 - arp_spoof pra fazer modem -> vitima , vitima -> modem passarem pelo seu caminho. Faz o MAC address seu ser o meio campo. Pra validar so ver o macaddress
+arp -a no windows.
+
+3 - packet_sniffer pra escutar se ele entrou em alguma pagina.
+
+// site teste
+
+http://testphp.vulnweb.com/login.php
+
+// codigo curso
+
+https://github.com/Loganinit/python-zaid/blob/master/4%20packet_sniffer/packet_sniffer-6.py
+
