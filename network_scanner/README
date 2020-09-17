@@ -4,7 +4,7 @@ Como usar:
 
 add:
 
-netdiscover -r 10.0.2.15/24
+netdiscover -r 192.168.0.10/24
 
 
 2 - arp_spoof pra fazer modem -> vitima , vitima -> modem passarem pelo seu caminho. Faz o MAC address seu ser o meio campo. Pra validar so ver o macaddress

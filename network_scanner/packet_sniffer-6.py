@@ -32,7 +32,7 @@ def process_sniffed_packet(packet):
         # print packet.show()
 
         url = geturl(packet)
-        print("[+]HTTPRequest > " + url)
+        print("[+]HTTPRequest > " + url.decode())
 
         logininfo = get_login_info(packet)
 

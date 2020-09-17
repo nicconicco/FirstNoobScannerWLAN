@@ -14,4 +14,4 @@ def scan(ip):
         print(element[1].hwsrc)
 
 
-scan("192.168.0.10/24")
+scan("192.168.0.0/24")
