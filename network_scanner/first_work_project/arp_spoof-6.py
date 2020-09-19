@@ -42,7 +42,7 @@ def restore(destination_ip, source_ip):
 
 count = 0
 
-target_ip = "192.168.0.2"
+target_ip = "192.168.0.12"
 gateway_ip = "192.168.0.1"
 
 restore(target_ip, gateway_ip)

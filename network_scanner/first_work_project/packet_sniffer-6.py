@@ -19,7 +19,7 @@ def geturl(packet):
 
 def get_login_info(packet):
     if packet.haslayer(scapy.Raw):
-        load = packet[scapy.Raw].load
+        load = str(packet[scapy.Raw].load)
         keywords = ['login', 'LOGIN', 'user', 'pass', 'username', 'password', 'Login']
 
         for keyword in keywords:
